@@ -1,3 +1,9 @@
+// this page is automatically rendered on the server side, to render it on the client side we do as below:
+// "use client"
+
+
+//and this page is the page that will appear when we firsr open our site, so you can consider it as out home page
+
 import Image from "next/image";
 
 export default function Home() {
@@ -111,3 +117,21 @@ export default function Home() {
     </main>
   );
 }
+
+// use the client side rendering only when you are using something related to state managemnt or if you are using some react hooks
+
+// check ss1 in public folder
+// check ss2 for nested routing
+// check ss3 for dynamic routing
+
+// check ss4 for loading a page
+// check ss5 for error handling files
+
+// check ss7 ror all the pre-defined file names in next js and backend setup
+// check ss8 imp
+
+
+
+// routing in next is simple, we just have to create a file or folder inside the app folder that will automatically get converted into a router 
+
+//layout.js is something where your all of the routes will be rendered
